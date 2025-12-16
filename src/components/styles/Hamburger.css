@@ -1,0 +1,7 @@
+.hamburger{margin-left:auto;background:transparent;border:none;display:inline-flex;flex-direction:column;gap:6px;padding:6px}
+.hamburger span{width:22px;height:2px;background:var(--white);display:block;border-radius:2px}
+.hamburger.open span{background:var(--gold)}
+
+@media (max-width:768px){
+  .hamburger{display:inline-flex}
+}
