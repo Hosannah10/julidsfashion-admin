@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import {
   fetchCustomOrders,
   updateCustomOrderStatus,
-  notifyCustomOrderCompleted,
+  // notifyCustomOrderCompleted,
   deleteCustomOrder
 } from "../../api";
 import "../Orders/styles/CustomOrders.css";

@@ -3,8 +3,8 @@ import { useToast } from "../../context/ToastContext";
 import {
   fetchShopOrders,
   updateShopOrderStatus,
-  notifyShopOrderCompleted,
-  deleteShopOrder,
+  // notifyShopOrderCompleted,
+  deleteShopOrder
 } from "../../api";
 import "../Orders/styles/ShopOrders.css";
 import { type Order } from "../../types";
