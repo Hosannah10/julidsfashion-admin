@@ -87,18 +87,6 @@ const ShopOrders: React.FC = () => {
     }
   };
 
-  // const onDelete = async (id: number) => {
-  //   if (!window.confirm("Delete this order permanently?")) return;
-
-  //   try {
-  //     await deleteShopOrder(id);
-  //     setOrders((prev) => prev.filter((o) => o.id !== id));
-  //     showToast("Order deleted");
-  //   } catch (e) {
-  //     console.error(e);
-  //     showToast("Failed to delete order");
-  //   }
-  // };
   const onDelete = (id: number) => {
     setPendingDeleteId(id);
     setShowConfirm(true);

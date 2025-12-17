@@ -101,7 +101,7 @@ const AddedWears: React.FC = () => {
     const q = query.trim().toLowerCase();
     const searchOK =
       !q ||
-      `${p.wearName} ${p.description}`.toLowerCase().includes(q);
+      `${p.wearName} ${p.price} ${p.description} ${p.category}`.toLowerCase().includes(q);
 
     return catOK && searchOK;
   });
