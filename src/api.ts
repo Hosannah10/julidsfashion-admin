@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BASE = 'http://127.0.0.1:8000/api' // <-- Replace when real backend is ready
+export const BASE = 'https://julidsfashion-backend-render.onrender.com/api' 
 
 export function getAuthFetchHeaders(contentType = "application/json") {
   const token = localStorage.getItem("token");
